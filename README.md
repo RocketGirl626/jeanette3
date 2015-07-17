@@ -24,6 +24,7 @@ In project directory run:
 - rake db:migrate
 - rake db:test:prepare
 - start rails server
+- go to localhost:3000
 - in the app create 2 accounts
 
 Since I cannot deploy to Heroku, the following sql commands need to be run
