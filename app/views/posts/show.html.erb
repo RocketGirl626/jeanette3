@@ -1,7 +1,7 @@
 <h1>Blog Post</h1>
 
 <h3><%= @post.name %></h3>
-<h5><%= @post.text %></h5>
+<h4><%= @post.text %></h4>
 
 <% if current_user && current_user.admin? %>
   <p><%= link_to "Edit Post", edit_post_path(@post) %></li>
@@ -13,9 +13,10 @@
 <%if @post.comments.any? %>
  <h3>Comments:</h3>
 
+ <% render @post.comments %>
 
 
-   <ul>
+   <!-- <ul>
     <% @post.comments.each do |comment| %>
        <li><%= comment.text %>
        <% if current_user && current_user.admin? || current_user && current_user.owner? %>
@@ -25,15 +26,15 @@
                      :method => "delete"} %></button></li>
         <% end %>
     <% end %>
-   </ul>
-    <% else %>
-
-     <h3>There are no comments for this post yet!</h3>
-
-    <% end %>
+   </ul> -->
+      <% else %>
+        <h3>There are no comments for this post yet!</h3>
+      <% end %>
 
 
 <br>
 
-<p><%= link_to 'Add a New Comment', new_post_comment_path(@post) %></p>
+<% if current_user && current_user.admin? || current_user && current_user.owner? %>
+  <p><%= link_to 'Add a New Comment', new_post_comment_path(@post.id), id: "new_comment_link", remote: true %></p>
+<% end %>
 <p><%= link_to "Return to skill categories", categories_path %></p>

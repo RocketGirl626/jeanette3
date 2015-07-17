@@ -13,7 +13,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'devise'
 gem "paperclip", "~> 4.3"
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
+gem 'rails_admin'
 
 group :development do
   gem 'byebug'

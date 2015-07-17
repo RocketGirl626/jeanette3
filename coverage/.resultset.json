@@ -1,27 +1,27 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/mom/jeanette2/spec/features/add_new_category_pages_spec.rb": [
+      "/Users/mom/Desktop/jeanette3/spec/features/add_new_category_pages_spec.rb": [
         1,
         null,
-        1,
         1,
         1,
         1,
         1,
         0,
         0,
+        0,
         null,
         null,
         1,
         1,
         1,
         0,
-        null,
+        0,
         null,
         null
       ],
-      "/Users/mom/jeanette2/spec/rails_helper.rb": [
+      "/Users/mom/Desktop/jeanette3/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -75,14 +75,14 @@
         1,
         null
       ],
-      "/Users/mom/jeanette2/config/environment.rb": [
+      "/Users/mom/Desktop/jeanette3/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/mom/jeanette2/config/application.rb": [
+      "/Users/mom/Desktop/jeanette3/config/application.rb": [
         1,
         null,
         1,
@@ -110,12 +110,12 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/config/boot.rb": [
+      "/Users/mom/Desktop/jeanette3/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/mom/jeanette2/config/environments/test.rb": [
+      "/Users/mom/Desktop/jeanette3/config/environments/test.rb": [
         1,
         null,
         null,
@@ -159,7 +159,7 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/config/initializers/assets.rb": [
+      "/Users/mom/Desktop/jeanette3/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -172,7 +172,7 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/config/initializers/backtrace_silencers.rb": [
+      "/Users/mom/Desktop/jeanette3/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -181,12 +181,12 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/config/initializers/cookies_serializer.rb": [
+      "/Users/mom/Desktop/jeanette3/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/mom/jeanette2/config/initializers/devise.rb": [
+      "/Users/mom/Desktop/jeanette3/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -453,13 +453,13 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/config/initializers/filter_parameter_logging.rb": [
+      "/Users/mom/Desktop/jeanette3/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/mom/jeanette2/config/initializers/inflections.rb": [
+      "/Users/mom/Desktop/jeanette3/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -477,18 +477,18 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/config/initializers/mime_types.rb": [
+      "/Users/mom/Desktop/jeanette3/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/mom/jeanette2/config/initializers/session_store.rb": [
+      "/Users/mom/Desktop/jeanette3/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/mom/jeanette2/config/initializers/wrap_parameters.rb": [
+      "/Users/mom/Desktop/jeanette3/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -504,7 +504,7 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/spec/factories.rb": [
+      "/Users/mom/Desktop/jeanette3/spec/factories.rb": [
         1,
         1,
         1,
@@ -521,9 +521,10 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/config/routes.rb": [
+      "/Users/mom/Desktop/jeanette3/config/routes.rb": [
         1,
         1,
+        null,
         1,
         null,
         1,
@@ -536,7 +537,7 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/app/models/user.rb": [
+      "/Users/mom/Desktop/jeanette3/app/models/user.rb": [
         1,
         null,
         null,
@@ -550,11 +551,11 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/app/helpers/application_helper.rb": [
+      "/Users/mom/Desktop/jeanette3/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/mom/jeanette2/spec/features/add_new_post_page_spec.rb": [
+      "/Users/mom/Desktop/jeanette3/spec/features/add_new_post_page_spec.rb": [
         1,
         null,
         1,
@@ -571,98 +572,98 @@
         0,
         0,
         0,
-        0,
-        0,
-        null,
-        null
-      ],
-      "/Users/mom/jeanette2/spec/features/add_new_project_pages_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/mom/jeanette2/spec/features/delete_category_pages_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        null,
-        null
-      ],
-      "/Users/mom/jeanette2/spec/features/delete_project_pages_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        0,
-        null,
-        null
-      ],
-      "/Users/mom/jeanette2/spec/features/edit_category_pages_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
         0,
         0,
         null,
         null
       ],
-      "/Users/mom/jeanette2/spec/features/edit_project_pages_spec.rb": [
+      "/Users/mom/Desktop/jeanette3/spec/features/add_new_project_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/mom/Desktop/jeanette3/spec/features/delete_category_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/mom/Desktop/jeanette3/spec/features/delete_project_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/Users/mom/Desktop/jeanette3/spec/features/edit_category_pages_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/mom/Desktop/jeanette3/spec/features/edit_project_pages_spec.rb": [
         null,
         null,
         null,
@@ -698,7 +699,7 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/spec/models/category_spec.rb": [
+      "/Users/mom/Desktop/jeanette3/spec/models/category_spec.rb": [
         1,
         null,
         1,
@@ -708,28 +709,14 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/app/models/category.rb": [
+      "/Users/mom/Desktop/jeanette3/app/models/category.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/mom/jeanette2/spec/models/project_spec.rb": [
-        1,
-        null,
-        1,
-        2,
-        2,
-        null
-      ],
-      "/Users/mom/jeanette2/app/models/project.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/mom/jeanette2/spec/models/user_spec.rb": [
+      "/Users/mom/Desktop/jeanette3/spec/models/project_spec.rb": [
         1,
         null,
         1,
@@ -737,7 +724,21 @@
         2,
         null
       ],
-      "/Users/mom/jeanette2/app/controllers/categories_controller.rb": [
+      "/Users/mom/Desktop/jeanette3/app/models/project.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/mom/Desktop/jeanette3/spec/models/user_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
+      "/Users/mom/Desktop/jeanette3/app/controllers/categories_controller.rb": [
         1,
         1,
         null,
@@ -746,7 +747,7 @@
         null,
         null,
         1,
-        5,
+        4,
         null,
         null,
         1,
@@ -792,62 +793,14 @@
         null,
         null
       ],
-      "/Users/mom/jeanette2/app/controllers/application_controller.rb": [
+      "/Users/mom/Desktop/jeanette3/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/mom/jeanette2/app/controllers/projects_controller.rb": [
-        1,
-        1,
-        2,
-        2,
-        null,
-        null,
-        1,
-        2,
-        2,
-        2,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        2,
-        null,
-        null
-      ],
-      "/Users/mom/jeanette2/app/models/post.rb": [
+      "/Users/mom/Desktop/jeanette3/app/models/post.rb": [
         1,
         1,
         1,
@@ -858,6 +811,6 @@
         null
       ]
     },
-    "timestamp": 1437096806
+    "timestamp": 1437162078
   }
 }

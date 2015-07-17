@@ -1,11 +1,7 @@
 <h1>Jeanette's Blog</h1>
 
-<ul>
-  <% @posts.each do |post| %>
-    <li><%= link_to post.name, post_path(post) %></li>
-  <% end %>
-</ul>
+<%= render @posts %>
 
 <% if current_user && current_user.admin? %>
-  <%= link_to 'Add a New Post', new_post_path %>
+  <%= link_to 'Add a New Post', new_post_path, id: 'new_post_link', remote: true %>
 <% end %>

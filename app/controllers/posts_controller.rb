@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_filter :authenticate_user!, except: [:index, :show]
+
   def index
     @posts = Post.all
   end
@@ -10,12 +11,10 @@ class PostsController < ApplicationController
 
   def create
     @user = current_user
-    @post = @user.posts.new(post_params)
-    if @post.save
-      flash[:notice] = "Post saved!"
-      redirect_to posts_path
-    else
-      render :new
+    @post = Post.create!(post_params)
+    respond_to do |format|
+      format.html { redirect_to posts_path }
+      format.js
     end
   end
 

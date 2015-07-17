@@ -6,13 +6,13 @@ class CommentsController < ApplicationController
 
   def create
     @post = Post.find(params[:post_id])
-    @comment = @post.comments.new(comment_params)
-    if @comment.save
-      flash[:notice] = "Comment Created!"
-      redirect_to post_path(@comment.post)
-    else
-      render :new
+    @comment = @post.comments.create!(comment_params)
+    current_user.comments.push(@comment)
+    respond_to do |format|
+      format.html { redirect_to post_path(@comment.post) }
+      format.js
     end
+
   end
 
   def edit
