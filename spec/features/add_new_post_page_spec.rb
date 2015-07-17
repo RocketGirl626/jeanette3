@@ -1,7 +1,7 @@
 require "rails_helper"
 
 describe "Add Post" do
-  it "allows a user to add a post to the site" do
+  it "allows a user to add a post to the site", js: true do
     user = FactoryGirl.create(:user)
     visit "/"
     expect(page).to have_content("Login")

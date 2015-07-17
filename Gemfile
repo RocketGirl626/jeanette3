@@ -32,6 +32,7 @@ end
 group :test do
   gem 'shoulda-matchers'
   gem 'capybara'
+  gem 'poltergeist'
   gem 'factory_girl_rails'
   gem 'simplecov', require: false
 end
